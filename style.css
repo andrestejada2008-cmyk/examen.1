@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+}
+
+.navbar {
+    background-color: #374151;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    padding: 5px 10px;
+}
+ .mi-boton {
+      background-color: #1a39c4; 
+      color: #ffffff;          
+      border: none;
+      padding: 5px 12px;
+      cursor: pointer;
+ }
+  .mi-boton2 {
+      background-color: #b119b1; 
+      color: #ffffff;            
+      border: none;
+      padding: 5px 12px;
+      cursor: pointer;
+ }
+.hero {
+    background-color: #111827;
+    color: white;
+    text-align: center;
+    padding: 25px 20px;
+}
+
+.imagen-hero {
+    width: 130px;
+    height: auto;
+    display: block;
+    margin: 0 auto 8px auto;
+}
+section h2 {
+    text-align: center;
+    margin-top: 25px;
+    color: #374151;
+}
+.seccion-content {
+    padding: 20px 40px;
+    width: 100%;
+}   
+
+.grid-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    margin-top: 20px;
+}
+
+.card {
+    background: white;
+    padding: 12px;
+    border-radius: 8px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: 120px;
+    object-fit: contain;
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
+
+.card h3 {
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.card p {
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+/* Tabla y Contenedor */
+.container {
+    width: 80%;
+    margin: 30px auto;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 5px;
+}
+
+h3 {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+table {
+    width: 100%;
+    background-color: white;
+    border: 1px solid #ccc;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    font-size: 13px;
+}
+
+th {
+    background-color: #e0e0e0;
+}
+
+.footerV {
+    text-align: center;
+    background-color: gray;
+    color: white;
+    padding: 15px;
+    margin-top: 40px;
+    width: 100%;
+    font-size: 12px;
+}
